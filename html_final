@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--注意heading要写在body里面-->
+    <h1>testtsettestestetset1111</h1>
+    <h1>Notes for HTML</h1>
+    <h2>jiliguala2222</h2>
+    <h3>walawala3333</h3>
+</body>
+</html>
