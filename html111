@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--这个是网页最上面的tag的名字↓↓↓-->
+    <title>Notes for HTML</title>
+</head>
+
+<body>
+    <!--注意heading要写在body里面-->
+        <h1>Notes for HTML</h1>
+        <h2>jiliguala2222</h2>
+        <h3>walawala3333</h3>
+        
+<p>蜂蜜酒：春季郁金香160野外200</p>
+<p>蜂蜜：蓝调爵士200 夏季亮片280 罂粟380 玫瑰仙子680</p>
+<p>上古水果605 756 907</p>    
+<p>杨桃825 1031 1237</p>
+<p>
+    <!--网站插入-->
+   <a href="https://github.com/XiangGong233">Xianggong's Github</a>
+</p>
+<p>
+    <!--图片插入The source file (src), alternative text (alt), width, and height are provided as attributes-->
+   <img src="微信图片_20181031230206" alt="微信图片_20181031230206" width="104" height="142">
+
+</p>
+<p>
+    <!--排序点点点 HTML lists are defined with the <ul> (unordered/bullet list) or the <ol> (ordered/numbered list) tag, followed by <li> tags (list items):-->
+        <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+        </ul>
+              
+        <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+        </ol>
+</p>
+
+</body>
+</html>
