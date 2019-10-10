@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tiange's Page</title>
 </head>
-<!--http://help.dottoro.com/lhfhbobo.php-->
-<body background="https://i.pximg.net/img-original/img/2016/06/01/20/57/01/54341472_p0.jpg" bgproperties="fixed">    
+<!--http://help.dottoro.com/lhfhbobo.php
+    https://www.cnblogs.com/hnyei/archive/2012/03/12/2392017.html
+    https://i.pximg.net/img-original/img/2016/06/01/20/57/01/54341472_p0.jpg -->
+<body background="" bgproperties="fixed"> 
     
     <h1>testtsettestestetset1111</h1>
     <h1>Notes for HTML</h1>
@@ -15,32 +17,27 @@
     <h3>walawala3333</h3>
 <font color="blue">blue</font>
 
-<!--broken?-->
-    <img src="https://www.instagram.com/p/BlCI9jVDWql/" alt="picture">
-
-    <a href="https://www.instagram.com/xianggong0815/" style="text-decoration:none" target="_blank">instagram</a>
+<!--test for image insert and caption-->
+<p>This is my favorit background picture (*^▽^*)
+<figure>
+        <img src="https://i.pximg.net/img-original/img/2016/06/01/20/57/01/54341472_p0.jpg" alt="Trulli" width="600" height="380">
+        <figcaption><a href="https://www.pixiv.net/en/artworks/54341472" target="_blank">pixiv id: 54341472</a></figcaption>
+</figure>
+</p>
+    <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/72610058_2512529395646902_7720328668043542528_n.jpg?_nc_cat=104&_nc_oc=AQlxZDT4cRE9AILhuuRW7qNSbcxB4HbvTWl3rouW-k3HWOYFz07ezmwcvFILoieetPk&_nc_ht=scontent-lga3-1.xx&oh=8a54962725f8a3cca9688de3341f0ea1&oe=5E2597BE" width="500" height="500">
+<!--href-->
+<p>
+    More pictures please go to my <a href="https://www.instagram.com/xianggong0815/" style="text-decoration:none" target="_blank">instagram</a> or <a href="" style="text-decoration:none">Planner</a> page.
+</p>
 <!--video code-->
     <br>
-        <video width="500" height="300" controls>
-            <source src="https://www.youtube.com/watch?v=prxIBx_77gw">
+        <video src="https://www.youtube.com/watch?v=prxIBx_77gw"  width="500" height="300" controls>
         </video>
- 
-    
     <br>
-    <img src="https://images.chinatimes.com/newsphoto/2019-04-26/900/20190426004265.jpg" alt="watermelon.jpg" weight="500" height="400">
-<br>
-
-
-
-
 
 
 
 
 </body>
-
-
-
-
 
 </html>
