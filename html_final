@@ -4,13 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Tiange's Page</title>
 </head>
-<body>
-    <!--注意heading要写在body里面-->
+<!--http://help.dottoro.com/lhfhbobo.php-->
+<body background="https://i.pximg.net/img-original/img/2016/06/01/20/57/01/54341472_p0.jpg" bgproperties="fixed">    
+    
     <h1>testtsettestestetset1111</h1>
     <h1>Notes for HTML</h1>
     <h2>jiliguala2222</h2>
     <h3>walawala3333</h3>
+<font color="blue">blue</font>
+
+<!--broken?-->
+    <img src="https://www.instagram.com/p/BlCI9jVDWql/" alt="picture">
+
+    <a href="https://www.instagram.com/xianggong0815/" style="text-decoration:none" target="_blank">instagram</a>
+<!--video code-->
+    <br>
+        <video width="500" height="300" controls>
+            <source src="https://www.youtube.com/watch?v=prxIBx_77gw">
+        </video>
+ 
+    
+    <br>
+    <img src="https://images.chinatimes.com/newsphoto/2019-04-26/900/20190426004265.jpg" alt="watermelon.jpg" weight="500" height="400">
+<br>
+
+
+
+
+
+
+
+
 </body>
+
+
+
+
+
 </html>
