@@ -10,12 +10,14 @@
     https://www.cnblogs.com/hnyei/archive/2012/03/12/2392017.html
     https://i.pximg.net/img-original/img/2016/06/01/20/57/01/54341472_p0.jpg -->
 <body background="" bgproperties="fixed"> 
-    
     <h1>testtsettestestetset1111</h1>
     <h1>Notes for HTML</h1>
     <h2>jiliguala2222</h2>
     <h3>walawala3333</h3>
-<font color="blue">blue</font>
+
+<img src="http://d279m997dpfwgl.cloudfront.net/wp/2018/05/0514_blue-1000x667.jpg" width="600" height="400">
+
+<p><font color="blue">blue</font></p>
 
 <!--test for image insert and caption-->
 <p>This is my favorit background picture (*^▽^*)
