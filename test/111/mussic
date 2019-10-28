@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>music</title>
+    <p>
+        <a href="page2.html">page2</a>
+        <a href="test/111/music.html">music</a>
+        
+    </p>
+    <p><a href="../index.html">homepage</a></p>
+</head>
+<body>
+    <a href="#section-1">section 1</a>
+    <h2 id="section-1">section1</h2>
+    <a href="#top">back to top</a>
+<p>111111emmit</p>
+<img src="images/111.jpeg" alt="111">
+分辨率72 resolution
+<small>111</small>
+
+
+
+
+
+
+
+
+</body>
+</html>
