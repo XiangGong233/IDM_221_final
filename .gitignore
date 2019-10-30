@@ -55,7 +55,9 @@ dkms.conf
 *.jpg
 *.jpeg
 
-
+# font
+*.woff
+*.woff2
 
 *.jpeg
 111.jpeg

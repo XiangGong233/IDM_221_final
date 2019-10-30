@@ -1,9 +1,5 @@
 
-
-
-img { max-width: 30%; }
-
-
+img { max-width: 40%; }
 
 html {
     font-size: 100%;
@@ -13,11 +9,21 @@ html {
     background-color: rgb(236, 227, 179);
     padding: 3rem 0;
     text-align: center;
-    font-family: 'montserrat_alternatesmedium', Arial, Helvetica, sans-serif; 
+    font-family: 'montserrat', Arial, Helvetica, sans-serif; 
+    font-weight: 600;
+    font-style: normal;
   }
 
-  body {
-    font-family: 'Open Sans', sans-serif;
+  .link {
+    text-align: center;
+    padding: 0rem;
+    font-family: 'montserrat', Arial, Helvetica, sans-serif; 
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+ p body {
+    font-family: 'source_sans', sans-serif;
     font-size: 100%;
   }
   
@@ -26,41 +32,41 @@ html {
   }
 
   h2 {
-      font-size: 2rem;
+      font-size: 2.5rem;
   }
   
   h3 {
-      font-size: 1.5rem;
+      font-size: 2rem;
   }
 
   h1, h2, h3, h4, h5, h6 {
     color: rgb(48, 47, 47);
+    font-family: 'montserrat', Arial, Helvetica, sans-serif; 
+    font-weight: bold;
   }
-  p {
-    line-height: 1.4;
-  }
+ 
 
   .box {
     text-align: center;
     padding: 3rem 0;
-    text-align: center;
-    font-family: 'montserrat_alternatesmedium', Arial, Helvetica, sans-serif; 
+    font-family: 'montserrat', Arial, Helvetica, sans-serif; 
+    font-weight: 600;
   }
   
   .left {
     text-align: left;
   }
-
-  .two {
+ 
+  .center {
     text-align: center;
   }
 
-  .three {
+  .right {
     text-align: right;
+    
   }
 
-
-
+ 
 
 
   
