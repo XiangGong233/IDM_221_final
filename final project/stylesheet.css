@@ -1,0 +1,38 @@
+
+
+
+img { max-width: 30%; }
+
+
+
+html {
+    font-size: 100%;
+  }
+
+  header {
+    background-color: rgb(236, 227, 179);
+    padding: 3rem 0;
+    text-align: center;
+    font-family: 'montserrat_alternatesmedium'; 
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+  }
+  
+  h1 {
+    font-size: 3rem;  /* 64px */
+  }
+
+  h2 {
+      font-size: 2rem;
+  }
+  
+  h3 {
+      font-size: 1.5rem;
+  }
+  p {
+    line-height: 1.4;
+  }
+  
