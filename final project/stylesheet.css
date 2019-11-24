@@ -1,77 +1,138 @@
+/* remember to change the size of images */
+/* remember to change the size of images */
+/* remember to change the size of images */
+/* remember to change the size of images */
+/* remember to change the size of images */
+
 
 * {
   box-sizing: border-box;
 }
 
-
-img { max-width: 40%; }
+*  {
+  margin: 0;
+  padding: 0;
+}
 
 html {
+  background-color: rgb(254, 255, 223);
+  color: #2b2b2b;
+  font-size: 100%;
+}
+
+img { max-width: 100%; min-width: 30%; }
+
+h1 { 
+  font-size: 2rem;  /* 64px */
+  text-shadow: 2px 2px 3px rgba(255, 255, 229, 0.993);
+}
+
+h2 { font-size: 1.5rem;}
+
+h3 { font-size: 1.2rem;}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(48, 47, 47);
+  font-family: 'montserrat', Arial, Helvetica, sans-serif; 
+  font-weight: bold;
+}
+
+/* need fix */
+.all {
+  text-align: center;
+  border-color: black;
+}
+
+/* header start */
+.header_image {
+  box-sizing: 0;
+}
+
+.header {
+  background-color: rgb(255, 245, 190);
+  font-family: 'montserrat', Arial, Helvetica, sans-serif; 
+  font-weight: 100%;
+  font-style: normal;
+  min-width: 300px; 
+  padding: 0 0 2rem;
+  text-align: center;
+}
+
+/* ????????????? */
+.header_name {
+  position: sticky;
+  position: -webkit-sticky;
+  text-align: center;
+  top: 0px;
+ }
+
+.header_h1 /*home*/{
+  font-family: 'montserrat', Arial, Helvetica, sans-serif; 
+  font-weight: 100;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.link {
+  font-family: 'montserrat', Arial, Helvetica, sans-serif; 
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 600;
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* header finish */
+
+/* main */
+.main {
+    font-family: 'montserrat', sans-serif;
     font-size: 100%;
-  }
-
-  header {
-    background-color: rgb(236, 227, 179);
-    padding: 3rem 0;
-    text-align: center;
-    font-family: 'montserrat', Arial, Helvetica, sans-serif; 
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  .link {
-    text-align: center;
-    padding: 0rem;
-    font-family: 'montserrat', Arial, Helvetica, sans-serif; 
-    font-weight: 600;
-    font-style: normal;
-    text-transform: uppercase;
-  }
- p body {
-    font-family: 'source_sans', sans-serif;
-    font-size: 100%;
-  }
-  
-  h1 {
-    font-size: 3rem;  /* 64px */
-  }
-
-  h2 {
-      font-size: 2.5rem;
-  }
-  
-  h3 {
-      font-size: 2rem;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    color: rgb(48, 47, 47);
-    font-family: 'montserrat', Arial, Helvetica, sans-serif; 
-    font-weight: bold;
-  }
- 
-
-  .box {
-    text-align: center;
-    padding: 3rem 0;
-    font-family: 'montserrat', Arial, Helvetica, sans-serif; 
     font-weight: 600;
   }
   
+  .header_h2 {
+    font-family: 'montserrat', Arial, Helvetica, sans-serif; 
+    font-weight: 100;
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+
   .left {
-    text-align: left;
+    text-align:left;
   }
  
-  .center {
-    text-align: center;
-  }
+.box {
+  padding: 0 !important;
+}
 
-  .right {
-    text-align: right;
-    
-  }
+.image {
+  border: 2px solid #2b2b2b;
+  border-radius: 20px;
+  max-width: 70%;
+  margin: 1rem 0;
+  margin-left: auto;
+  margin-right: auto;
+}
 
- 
+figcaption {
+  padding: 0.4rem 0;
+}
+
+.box img {
+  border-radius: 20px;
+  padding: 0.5rem 0.5rem 0rem;
+}
+
+
+  /* main finish */
+
+
+/* footer start */
+  
+
+
+
 
 
   
