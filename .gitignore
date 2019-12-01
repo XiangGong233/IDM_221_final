@@ -61,3 +61,7 @@ dkms.conf
 
 *.jpeg
 111.jpeg
+
+# video
+*.mp4
+*.ogg

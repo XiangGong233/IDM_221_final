@@ -4,6 +4,8 @@
 /* remember to change the size of images */
 /* remember to change the size of images */
 
+@import 'css/AboutMe.css';
+@import 'css/PlannerDesign.css';
 
 * {
   box-sizing: border-box;
@@ -15,7 +17,6 @@
 }
 
 html {
-  background-color: rgb(254, 255, 223);
   color: #2b2b2b;
   font-size: 100%;
 }
@@ -23,24 +24,37 @@ html {
 img { max-width: 100%; min-width: 30%; }
 
 h1 { 
-  font-size: 2rem;  /* 64px */
+  font-size: 1.5rem;  /* 64px */
   text-shadow: 2px 2px 3px rgba(255, 255, 229, 0.993);
 }
 
-h2 { font-size: 1.5rem;}
+h2 { font-size: 1.2rem;
+  text-shadow: 2px 2px 3px rgba(255, 255, 229, 0.993);}
 
-h3 { font-size: 1.2rem;}
+h3 { font-size: 1.0rem;
+  text-shadow: 2px 2px 3px rgba(255, 255, 229, 0.993);}
 
 h1, h2, h3, h4, h5, h6 {
-  color: rgb(48, 47, 47);
+  color: rgb(48, 47, 47, 0.85);
   font-family: 'montserrat', Arial, Helvetica, sans-serif; 
   font-weight: bold;
+}
+
+body {
+  background-color: rgba(255, 255, 229, 0.4);
+}
+
+p {
+  color:rgb(48, 47, 47, 0.80);
 }
 
 /* need fix */
 .all {
   text-align: center;
   border-color: black;
+  margin: 1rem;
+  background-color: rgb(254, 255, 238);
+  box-shadow: 5px 5px 5px lightgray;
 }
 
 /* header start */
@@ -53,15 +67,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'montserrat', Arial, Helvetica, sans-serif; 
   font-weight: 100%;
   font-style: normal;
-  min-width: 300px; 
+  min-width: 2rem; 
   padding: 0 0 2rem;
   text-align: center;
+  position: relative;
+  bottom: 0.2rem;
 }
 
 /* ????????????? */
 .header_name {
-  position: sticky;
-  position: -webkit-sticky;
   text-align: center;
   top: 0px;
  }
@@ -69,81 +83,65 @@ h1, h2, h3, h4, h5, h6 {
 .header_h1 /*home*/{
   font-family: 'montserrat', Arial, Helvetica, sans-serif; 
   font-weight: 100;
-  padding: 1rem 0;
+  padding: 0.7rem 0;
   text-align: center;
 }
 
 .link {
   font-family: 'montserrat', Arial, Helvetica, sans-serif; 
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-style: normal;
   font-weight: 600;
-  padding: 0.5rem 0.5rem 0rem 0.5rem;
-  text-align: center;
+  margin: 0 auto ;
   text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 ;
+  padding: 1rem 0 0 0;
+}
+
+li {
+  text-align: center;
+  display: inline;
+}
+
+li a {
+  color: gray;
+  padding: 0.6rem;
+  text-decoration: none;
 }
 /* header finish */
 
-/* main */
-.main {
-    font-family: 'montserrat', sans-serif;
-    font-size: 100%;
-    font-weight: 600;
-  }
-  
-  .header_h2 {
-    font-family: 'montserrat', Arial, Helvetica, sans-serif; 
-    font-weight: 100;
-    padding: 1rem 1rem;
-    text-align: center;
-  }
+/* main start */
 
-  .left {
-    text-align:left;
-  }
- 
-.box {
-  padding: 0 !important;
+.index {
+  margin: 0.5rem;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(209, 209, 209);
 }
 
-.image {
-  border: 2px solid #2b2b2b;
-  border-radius: 20px;
-  max-width: 70%;
-  margin: 1rem 0;
-  margin-left: auto;
-  margin-right: auto;
+
+
+.indexcard {
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
-/* figcaption {
-  padding: 0.4rem 0;
-} */
-
-.box img {
-  /* border-radius: 20px; */
-  padding: 0.5rem 0.5rem 0rem;
+#top {
+  margin-top: 1.5rem;
 }
 
-.container {
-  position: relative;
-  max-width: 70%;
-  margin: 0 auto;
-  padding: 0;
+#notop {
+  margin-top: 0rem;
+  padding: 0rem;
 }
-
-.content {
-  width: 94%;
-  position: absolute;
-  bottom: 0.3rem;
-  left: 0.5rem;
-  background: rgba(0, 0, 0, 0.5)
-  
-}
-
-/* main finish */
-
-
 
 /* footer start */
-  
+
+footer {
+  font-family: 'montserrat', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
 
