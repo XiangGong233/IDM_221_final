@@ -152,3 +152,10 @@ footer {
   text-align: center;
 }
 
+a:link {
+  color: rgb(80, 80, 80);
+}
+
+a:visited {
+  color: rgb(158, 158, 158);
+}
