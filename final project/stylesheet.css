@@ -50,11 +50,11 @@ p {
 
 /* need fix */
 .all {
-  text-align: center;
-  border-color: black;
-  margin: 1rem;
   background-color: rgb(254, 255, 238);
+  border-color: black;
   box-shadow: 5px 5px 5px lightgray;
+  margin: 1rem;
+  text-align: center;
 }
 
 /* header start */
@@ -64,14 +64,14 @@ p {
 
 .header {
   background-color: rgb(255, 245, 190);
-  font-family: 'montserrat', Arial, Helvetica, sans-serif; 
+  bottom: 0.2rem;
+  font-family: 'montserrat', Arial, Helvetica, sans-serif;
+  font-style: normal; 
   font-weight: 100%;
-  font-style: normal;
   min-width: 2rem; 
   padding: 0 0 2rem;
-  text-align: center;
   position: relative;
-  bottom: 0.2rem;
+  text-align: center;
 }
 
 /* ????????????? */
@@ -103,8 +103,8 @@ ul {
 }
 
 li {
-  text-align: center;
   display: inline;
+  text-align: center;
 }
 
 li a {
@@ -117,9 +117,9 @@ li a {
 /* main start */
 
 .index {
-  margin: 0.5rem;
   border-radius: 15px;
   box-shadow: 3px 3px 3px rgb(209, 209, 209);
+  margin: 0.5rem;
   max-width: 20%;
 }
 
@@ -135,20 +135,20 @@ li a {
 }
 
 #notop {
-  margin-top: 0rem;
   margin-bottom: 2rem;
+  margin-top: 0rem;
   padding: 0rem;
 }
 
 /* footer start */
 
 footer {
+  background-color: rgb(255, 245, 190);
   font-family: 'montserrat', Arial, Helvetica, sans-serif;
   font-weight: 600;
-  padding: 2.4rem;
-  text-align: center;
-  background-color: rgb(255, 245, 190);
   max-zoom: 100%;
   min-zoom: 20%;
+  padding: 2.4rem;
+  text-align: center;
 }
 
