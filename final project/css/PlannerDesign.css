@@ -61,4 +61,36 @@ video {
   height: auto;
 }
 
+.container02 {
+  margin-left: 1rem;
+  max-width: 50%;
+  padding: 0.2rem;
+  float: left;
+  width: 44%;
+
+}
+
+
+
+.box02 {
+  padding: 0 !important;
+}
+
+.box02 img {
+  border-radius: 20px;
+  padding: 0rem 0rem 0rem;
+  box-shadow: 0px 0px 5px 5px rgb(255, 254, 177); 
+
+}
+
+.box02::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* main finish */
+
+
+
+
