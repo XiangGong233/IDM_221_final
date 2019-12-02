@@ -135,6 +135,7 @@ li a {
 
 #notop {
   margin-top: 0rem;
+  margin-bottom: 2rem;
   padding: 0rem;
 }
 
@@ -143,5 +144,10 @@ li a {
 footer {
   font-family: 'montserrat', Arial, Helvetica, sans-serif;
   font-weight: 600;
+  padding: 2.4rem;
+  text-align: center;
+  background-color: rgb(255, 245, 190);
+  max-zoom: 100%;
+  min-zoom: 20%;
 }
 
