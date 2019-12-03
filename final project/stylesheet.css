@@ -4,8 +4,8 @@
 /* remember to change the size of images */
 /* remember to change the size of images */
 
-@import 'css/AboutMe.css';
-@import 'css/PlannerDesign.css';
+@import 'css/aboutme.css';
+@import 'css/plannerdesign.css';
 
 * {
   box-sizing: border-box;
@@ -83,7 +83,7 @@ p {
 .header_h1 /*home*/{
   font-family: 'montserrat', Arial, Helvetica, sans-serif; 
   font-weight: 100;
-  padding: 0.7rem 0;
+  padding: 1rem 0 0;
   text-align: center;
 }
 
@@ -120,11 +120,16 @@ li a {
   border-radius: 15px;
   box-shadow: 3px 3px 3px rgb(209, 209, 209);
   margin: 0.5rem;
-  max-width: 20%;
+  max-width: 30%;
 }
 
+#topmargin {
+  margin-top: 1.5rem;
+}
 
-
+#bottommargin {
+  margin-bottom: 1.2rem;;
+}
 .indexcard {
   margin: 0.5rem;
   padding: 0.5rem;
@@ -152,10 +157,16 @@ footer {
   text-align: center;
 }
 
+
+
 a:link {
   color: rgb(80, 80, 80);
 }
 
 a:visited {
   color: rgb(158, 158, 158);
+}
+
+a:hover {
+  color: rgb(46, 46, 46);
 }
