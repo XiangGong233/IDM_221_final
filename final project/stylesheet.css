@@ -69,34 +69,71 @@ p {
   font-style: normal; 
   font-weight: 100%;
   min-width: 2rem; 
-  padding: 0 0 2rem;
+  padding: 0;
   position: relative;
   text-align: center;
 }
 
 /* ????????????? */
-.header_name {
-  text-align: center;
-  top: 0px;
- }
-
 .header_h1 /*home*/{
   font-family: 'montserrat', Arial, Helvetica, sans-serif; 
   font-weight: 100;
-  padding: 1rem 0 0;
+  padding-top: 1rem;
   text-align: center;
 }
 
-.link {
+.header_name {
+  text-align: center;
+  padding-top: 1rem;
+ }
+
+
+
+.link a {
   font-family: 'montserrat', Arial, Helvetica, sans-serif; 
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 600;
-  margin: 0 auto ;
+  display: block;
+  padding: 1.5rem;
+  text-decoration: none; 
   text-transform: uppercase;
 }
 
-ul {
+.link {
+  width: 100%;
+}
+
+#home {
+  background-color: rgb(255, 255, 200);
+}
+
+#aboutme {
+  background-color: rgb(255, 255, 180);
+}
+
+#plannerdesign {
+  background-color: rgb(253, 255, 150);
+}
+
+/* #home {
+  background-color: rgb(255, 245, 190);
+}
+
+#aboutme{
+  background-color: rgb(180, 179, 179);
+}
+
+#plannerdesign {
+  background-color: rgb(221, 221, 221);
+} */
+
+.inlink:last-child {
+  padding: 0;
+  margin: 0;
+}
+
+/* ul {
   list-style-type: none;
   margin: 0 ;
   padding: 1rem 0 0 0;
@@ -111,7 +148,7 @@ li a {
   color: gray;
   padding: 0.6rem;
   text-decoration: none;
-}
+} */
 /* header finish */
 
 /* main start */
