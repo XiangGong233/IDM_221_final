@@ -89,7 +89,7 @@ p {
 
 .link {
   font-family: 'montserrat', Arial, Helvetica, sans-serif; 
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-style: normal;
   font-weight: 600;
   margin: 0 auto ;
@@ -164,7 +164,7 @@ a:link {
 }
 
 a:visited {
-  color: rgb(158, 158, 158);
+  color: rgb(120, 120, 120);
 }
 
 a:hover {
